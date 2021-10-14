@@ -4,6 +4,7 @@ body {
     font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
+/* FIRST SECTION - HEADER, IMAGE AND INFORMATION*/
 header {
     background-color: #1F2937;
     display: flex;
@@ -27,6 +28,11 @@ header a {
     color: #E5E7EB;    
 }
 
+.website-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
 .nav-links {
     display: flex;
     justify-content: center;
@@ -42,14 +48,13 @@ header a {
     color: #F9FAF8;
 }
 
-h2 {
-    font-size: 48px;
-    font-weight: bolder;
-}
-
 .welcome-section p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.awesome-website {
+    width: 500px;
 }
 
 #sign-up-btn {
@@ -64,7 +69,6 @@ h2 {
 }
 
 #welcome-img {
-    width: 400px;
-    height: auto;
+    height: 300px;
+    width: auto;
 }
-
