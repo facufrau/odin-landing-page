@@ -72,3 +72,33 @@ header a {
     height: 300px;
     width: auto;
 }
+
+/* SECOND SECTION - INFORMATION */
+
+.information h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.item img {
+    border: 3px solid #3882F6;
+    border-radius: 25px;
+}
+
+.item-text {
+    max-width: 156px;
+    color:#5e5e5e;
+}
+
+#item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 0px 100px;
+    text-align: center;
+}
