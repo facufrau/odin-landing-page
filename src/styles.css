@@ -57,7 +57,7 @@ header a {
     width: 500px;
 }
 
-#sign-up-btn {
+.sign-up-btn {
     margin: 0;
     border: 0;
     padding: 10px 35px;
@@ -73,8 +73,8 @@ header a {
     width: auto;
 }
 
-/* SECOND SECTION - INFORMATION */
 
+/* SECOND SECTION - INFORMATION */
 #information h2{
     font-size: 36px;
     font-weight: 900;
@@ -82,15 +82,18 @@ header a {
     display: flex;
     align-content: center;
     justify-content: center;
+    
 }
 
 .item img {
     border: 3px solid #3882F6;
     border-radius: 25px;
+    box-sizing: border-box;
+    width: 150px;
 }
 
 .item-text {
-    max-width: 156px;
+    max-width: 150px;
     color:#5e5e5e;
 }
 
@@ -99,6 +102,6 @@ header a {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin: 0px 100px;
+    margin: 0px 250px;
     text-align: center;
 }
