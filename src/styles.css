@@ -131,3 +131,55 @@ figcaption {
     justify-content: end;
     margin: 0 250px;
 }
+
+/* FOURTH SECTION - CALL TO ACTION */
+#sign-up {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sign-up-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    width: 70vw;
+    height: 20vh;
+    min-height: 20%;
+    border-radius: 10px;
+}
+
+#call-to-action {
+    color: white;
+}
+
+.sign-up-btn.action{
+    border: 2px solid white;
+}
+
+#call-title, #call-subtitle {
+    margin:5px 0;
+}
+
+#call-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#call-subtitle {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* FIFTH SECTION - FOOTER */
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
