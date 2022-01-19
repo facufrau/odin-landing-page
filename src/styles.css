@@ -42,7 +42,7 @@ header a {
 .welcome-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 100px;
     background-color: #1F2937;
     color: #F9FAF8;
